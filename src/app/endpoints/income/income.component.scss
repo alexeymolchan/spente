@@ -93,29 +93,22 @@
 
   @media screen and (max-width: 930px){
     .items{
-      width: 700px;
+      width: 720px;
+      left: 10px;
       justify-content: flex-start;
     }
     .item{
-      margin: 0 20px 20px 0;
+      margin: 0 20px 20px 0px;
 
-      &:nth-of-type(4n){
-        margin-right: 0;
-      }
     }
 
   }
 
   @media screen and (max-width: 748px){
     .items{
-      width: 520px;
+      width: 540px;
     }
-    .item:nth-of-type(4n){
-      margin-right: 20px;
-    }
-    .item:nth-of-type(3n){
-      margin-right: 0;
-    }
+
   }
 
   @media screen and (max-width: 550px){
@@ -123,18 +116,11 @@
       max-height: 60px;
     }
     .items{
-      width: 360px;
+      width: 400px;
     }
     .item{
       margin: 0 40px 20px 0;
 
-      &:nth-of-type(3n){
-        margin-right: 40px;
-      }
-
-      &:nth-of-type(2n){
-        margin-right: 0;
-      }
     }
   }
 }
